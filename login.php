@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['igraj'])) {
     $_SESSION['st_kock'] = $st_kock;
     $_SESSION['st_metov'] = $st_metov;
 
-    header('Location: game.php');
+    header('Location: index.php');
     exit;
 }
 ?>
